@@ -21,6 +21,3 @@ class EmailVerifier:
             # logger.error(f"Verification failed for {email}: {str(e)}")
             return {"status": "unknown"}
         
-# if __name__ == "__main__":
-#     verifier = EmailVerifier(api_key ='6a1174690dbb01b047e0a241303e09a0c42f9736' )
-#     print(verifier.verify('sayed.huda@braintoy.ai'))

@@ -44,10 +44,3 @@ class GoogleSheetClient:
         worksheet = self.get_sheet(sheet_name)
         worksheet.append_row(values)
 
-
-# if __name__ == "__main__":
-#     gs_client = GoogleSheetClient(credentials_file='credentials.json', sheet_id = '1jHJQN7zLz__xPSFofx_3gyICv1jJVDiGpbTBVYYTduk')
-#     data = gs_client.get_all_records('Leads')
-#     print(data)
-#     gs_client.update_cell(sheet_name= 'Leads', row= 2, col=6, value= 'Y')
-#     print(data)
