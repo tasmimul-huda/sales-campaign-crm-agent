@@ -3,6 +3,8 @@ from modules.google_sheets.client import GoogleSheetClient
 # from modules.utils.logger import logger
 from config.settings import SHEET_CONFIG
 import os
+import logging
+logger = logging.getLogger(__name__)
 
 class BaseAgent(ABC):
     def __init__(self):

@@ -1,6 +1,8 @@
 from modules.agents.base_agent import BaseAgent
 from modules.email.verifier import EmailVerifier
 import os
+import logging
+logger = logging.getLogger(__name__)
 
 from dotenv import load_dotenv
 load_dotenv()
